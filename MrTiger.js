@@ -7,7 +7,7 @@ const fs = require("fs");
 const cmd = require("node-cmd");
 const config = require("./config.json");
 const prefix = config.prefix;
-const client = new Discord.Client();
+const client = new Discord.Client(ODU3NzgwODI2NDc3ODIxOTUy.YNsgMg.viWUrJ0XaifY1l0oRfH02PL0FmU);
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const client4 = new Discord.Client();
@@ -169,8 +169,8 @@ client.on("message", async msg => {
     dinfo = {
     
       owner: config.kahrbaaid,
-      serverid: "NONE",
-      channelid: "NONE", 
+      serverid: "765469302102818827",
+      channelid: "859165025892433970", 
       timespam: "NONE",
       timestop: "NONE"
     };
